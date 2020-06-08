@@ -3,3 +3,40 @@
     padding: 0;
     box-sizing: border-box;
 }
+footer{
+    background-color: #8f3e43;
+    color: #FFFFFF;
+}
+.footerlink{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.enquiry{
+    display: flex;
+    padding: 40px;
+}
+.sec{
+    flex-grow: 1;
+}
+.footerlogo{
+    padding-bottom: 25px;
+}
+.detail{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    font-size: 0.8rem;
+}
+.detailsec{
+    display: flex;
+    padding-bottom: 10px;
+}
+.detailhead{
+    padding-right: 30px;
+}
+.address{
+    padding-right: 20px;
+}
+.detailcontent{
+    font-weight: lighter;
+}
