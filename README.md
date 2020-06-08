@@ -36,5 +36,6 @@ OR
 
 - When your PR gets closed, someone in charge would definitely leave a comment as to why it was closed.
 
-## Happy Coding!! 🍹 😄
+
+## Happy Coding!! 🍹 😊
 
