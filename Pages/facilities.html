@@ -4,32 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Sunrise Hotel &mdash; Facilities</title>
-    <!-- bootstrap css -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Playfair+Display&display=swap" rel="stylesheet">
     <!-- base style -->
     <link rel="stylesheet" href="../styles/facilities.css">
 </head>
 <body>
     <main>
-        <!-- all markup goes here -->
-        <section class="header">
-            <div class="container">
-                <!-- header section -->
-                <div class="row">
-                    <div class="col-sm-10">
-                        <img src="../assets/Icons/Sunrise Hotel.svg" class="hotel__brand mt-2" alt="hotel logo">
+        <!-- header section -->
+        <header>
+            <div class="head__items flex__center space__between px-14">
+                <img src="../assets/Icons/Sunrise Hotel.svg" class="hotel__brand mt-2" alt="hotel logo">
+                <button type="button" class="mt-4 book__btn ">Book now</button>
+            </div>
+            <!-- Welcome section -->
+            <div class="hero flex__center space__evenly px-14">
+                <div class="social__icons column__flow">
+                    <div class="social">
+                        <img src="../assets/Icons/Icon awesome-facebook-f.svg" alt="facebook social-media icon" class="facebook">
                     </div>
-                    <div class="col-sm-2">
-                        <button type="button" class="mt-4 book__btn ">Book now</button>
+                    <div class="social mt-6">
+                        <img src="../assets/Icons/Icon ionic-logo-instagram.svg" alt="instagram social-media icon" class="instagram">
                     </div>
                 </div>
+                <div class="intro__text">
+                    <p><i>Our</i></p> 
+                    <br>
+                    <h1>facilities</h1>
+                </div>
+                <!-- navigation menu goes here -->
+                <!-- <nav>
+                    <ul>
+                        <li>Home</li>
+                        <li>Rooms</li>
+                        <li>About</li>
+                        <li>Facilities</li>
+                        <li>Contact</li>
+                    </ul>
+                </nav> -->
             </div>
-        </section>
-        
+        </header> 
+        <!-- facilities section starts here -->
+        <div class="facilities__list flex__center">
+            <!-- a facility card -->
+            <div class="conference__rooms card box-shadow">
+                <img src="../assets/benjamin-child-0sT9YhNgSEs-unsplash.jpg" alt="A room with a large table and chairs arranged underneath it" class="img__description">
+                <div class="facility__info px-6">
+                    <h1 class="facility__name mt-2">Conference Rooms</h1>
+                    <p class="mt">
+                        Organising a conference might not seem so much of challenging 
+                        if you have all the subsequent amenities to support it. 
+                        There are lots of aspects that are to be taken care of. But, 
+                        the requirements of a conference room are a bit different from other parties. 
+                        A good conference hall is an interpretation of many provisions that customers look for.          
+                    </p>
+                </div>
+            </div>
+            <!-- Another facility card -->
+            <div class="restaurant__bar card box-shadow">
+                <img src="../assets/pratama-ryan-xItqLcw8HDo-unsplash.jpg" alt="A room with a large table and chairs arranged underneath it" class="img__description">
+                <div class="facility__info px-6">
+                    <h1 class="facility__name mt-2">Restaurant & Bar</h1>
+                    <p class="mt">
+                        We go to great lengths to ensure good quality and we would like to give our guests the best start to the day. 
+                        Therefore, we offer a delicious breakfast buffet that focuses on quality, ecology, health and, not least, good taste. 
+                        As a result, we have a large selection of breads, cheese, cold cuts, fruit and vegetables, yoghurt, eggs, breakfast products.
+                    </p>
+                </div>
+            </div>
+            <!-- Yet another facility card -->
+            <div class="gym__fitness card box-shadow">
+                <img src="../assets/humphrey-muleba-LOA2mTj1vhc-unsplash.jpg" alt="A room with a large table and chairs arranged underneath it" class="img__description">
+                <div class="facility__info px-6">
+                    <h1 class="facility__name mt-2">Gym & fitness</h1>
+                    <p class="mt">
+                        Time for today's workout? 
+                        We welcome you to our brand-new fitness which is located on the 4th floor. 
+                        The room is about 60 square meters and available for all our guests. 
+                        Book a nice and pleasant fitness stay at Imperial Hotel – with the option to exercise every day from 6AM to 10PM.          
+                    </p>
+                </div>
+            </div>
+            <!-- Another facility card -->
+            <div class="swimming__pool card box-shadow">
+                <img src="../assets/patric-wong-iIn9RMIlay8-unsplash.jpg" alt="A room with a large table and chairs arranged underneath it" class="img__description">
+                <div class="facility__info px-6">
+                    <h1 class="facility__name mt-2">swimming Pool</h1>
+                    <p class="mt">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde nesciunt dolor amet, laboriosam fugiat qui incidunt sit fugit distinctio quae. Ex sapiente voluptatibus impedit nostrum non! Animi asperiores aperiam magni! Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </div>
+            </div>
+        </div>   
     </main>
     <!-- bootstrap scripts -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> -->
 </body>
 </html>
