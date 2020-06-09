@@ -3,50 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Sunrise Hotel &mdash; Facilities</title>
+    <title>Stunning Hotel|Facilities</title>
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Playfair+Display&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="../fonts/css/all.min.css">
+    <link rel="stylesheet" href="../fonts/css/fontawesome.min.css">
     <!-- base style -->
     <link rel="stylesheet" href="../styles/facilities.css">
+    <link rel="stylesheet" href="../styles/index.css">
 </head>
 <body>
     <main>
         <!-- header section -->
         <header>
-            <div class="head__items flex__center space__between px-14">
-                <img src="../assets/Icons/Sunrise Hotel.svg" class="hotel__brand mt-2" alt="hotel logo">
-                <button type="button" class="mt-4 book__btn ">Book now</button>
-            </div>
-            <!-- Welcome section -->
-            <div class="hero flex__center space__evenly px-14">
-                <div class="social__icons column__flow">
-                    <div class="social">
-                        <img src="../assets/Icons/Icon awesome-facebook-f.svg" alt="facebook social-media icon" class="facebook">
-                    </div>
-                    <div class="social mt-6">
-                        <img src="../assets/Icons/Icon ionic-logo-instagram.svg" alt="instagram social-media icon" class="instagram">
-                    </div>
+            <nav class="top-nav" id="nav">
+                <div id="logo-div">
+                    <a href="../index.html"><img src="../assets/Icons/Sunrise Hotel.svg" alt="logo"></a>
                 </div>
+                <div id="btn-book-div">
+                    <button id="btn-book">BOOK NOW</a></button>
+                </div>
+            </nav>
+            <aside class="nav-sidebar">
+                <ul>
+                    <li><a href="../index.html">Home &nbsp;&nbsp;<i class="fa fa-circle"></i></a></li>
+                    <li><a href="#">Rooms &nbsp;&nbsp;<i class="fa fa-circle"></i></a></li>
+                    <li><a href="#">About &nbsp;&nbsp;<i class="fa fa-circle"></i></a></li>
+                    <li><a href="facilities.html">Facilities &nbsp;&nbsp;<i class="fa fa-circle"></i></a></li>
+                    <li><a href="contact.html">Contacts &nbsp;&nbsp;<i class="fa fa-circle"></i></a></li>
+                </ul>
+            </aside>
+            <a href="#facility-start"><div class="scroll-btn">
+            </div></a>
+      
+      
+            <div class="side-icons">
+                <ul class="social-icons">
+                    <li><i class="fab fa-facebook-f fa-2x"><a href="#"></a></i></li>
+                    <li><i class="fab fa-instagram fa-2x"><a href="#"></a></i></li>
+                </ul>
+            </div>
                 <div class="intro__text">
                     <p><i>Our</i></p> 
                     <br>
                     <h1>facilities</h1>
                 </div>
-                <!-- navigation menu goes here -->
-                <!-- <nav>
-                    <ul>
-                        <li>Home</li>
-                        <li>Rooms</li>
-                        <li>About</li>
-                        <li>Facilities</li>
-                        <li>Contact</li>
-                    </ul>
-                </nav> -->
             </div>
         </header> 
         <!-- facilities section starts here -->
-        <div class="facilities__list flex__center">
+        <div class="facilities__list flex__center" id="facility-start">
             <!-- a facility card -->
             <div class="conference__rooms card box-shadow">
                 <img src="../assets/benjamin-child-0sT9YhNgSEs-unsplash.jpg" alt="A room with a large table and chairs arranged underneath it" class="img__description">
@@ -98,6 +105,122 @@
             </div>
         </div>   
     </main>
+    <footer id="footer">
+        <div class="enquiry">
+          <div class="sec1">
+              <div class="footerlogosec">
+                <a href="../index.html" class="footerlink">
+                    <img
+                      class="footerlogo"
+                      src="../assets/Icons/Sunrise Hotel.svg"
+                      alt="sunrise hotel"
+                    />
+                </a>
+              </div>
+            <div class="detail">
+              <div class="detailsec">
+                <p class="detailhead address">Address</p>
+                <p class="detailcontent">
+                  74b The Green Court Estate,<br />Lekki, Lagos.
+                </p>
+              </div>
+              <div class="detailsec">
+                <p class="detailhead">Phone</p>
+                <p class="detailcontent">(+234) 0707 344 3774</p>
+              </div>
+              <div class="detailsec">
+                <p class="detailhead">Email</p>
+                <a
+                  href="mailto:support@sunrise.com"
+                  class="footerlink detailcontent"
+                >
+                  support@sunrise.com
+                </a>
+              </div>
+            </div>
+            <div class="footersocial">
+              <div class="FB">
+                <a href="#" class="footerlink">
+                  <div class="FBcircle"></div>
+                </a>
+              </div>
+              <div class="IG">
+                <a href="#" class="footerlink">
+                  <div class="IGcircle"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="sec2">
+            <div class="sec">
+              <div class="sec-content">
+                <a class="footerlink" href="#">Home</a>
+              </div>
+              <div class="sec-content">
+                <a class="footerlink" href="#">Rooms & Suites</a>
+              </div>
+              <div class="sec-content">
+                <a class="footerlink" href="#">Packages</a>
+              </div>
+              <div class="sec-content">
+                <a class="footerlink" href="#">News</a>
+              </div>
+              <div class="sec-content">
+                <a class="footerlink" href="#">Gift Voucher</a>
+              </div>
+            </div>
+            <div class="sec">
+              <div class="sec-content">
+                <a href="#" class="footerlink">Our Story</a>
+              </div>
+              <div class="sec-content">
+                <a href="#" class="footerlink">Restaurants & Bar</a>
+              </div>
+              <div class="sec-content">
+                <a href="#" class="footerlink">Meetings & Events</a>
+              </div>
+              <div class="sec-content">
+                <a href="#" class="footerlink"> Gallery </a>
+              </div>
+            </div>
+            <div class="sec">
+              <div class="sec-content">
+                <a href="#" class="footerlink">
+                  Our Team
+                </a>
+              </div>
+              <div class="sec-content">
+                <a href="#" class="footerlink">
+                  Alpine Hideaway Spa
+                </a>
+              </div>
+              <div class="sec-content">
+                <a href="#" class="footerlink">
+                  Experience the Magic
+                </a>
+              </div>
+              <div class="sec-content">
+                <a href="#" class="footerlink">
+                  Contact Us
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="base">
+          <p class="copyright">2020. All rights reserved Sunrise Hotel.</p>
+          <div class="basetext">
+            <a href="#" class="footerlink">Cookies</a>
+          </div>
+  
+          <div class="basetext">
+            <a href="#" class="footerlink">Privacy Policy</a>
+          </div>
+        </div>
+      </footer>
+      <script src="../js/index.js"></script>
+      <script src="../fonts/js/all.min.js"></script>
+      <script src="../fonts/js/fontawesome.min.js"></script>
     <!-- bootstrap scripts -->
     <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
