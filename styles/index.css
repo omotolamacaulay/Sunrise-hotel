@@ -3,6 +3,176 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #222;
+    padding: 0;
+    margin: 0;
+}
+/* Start header and menu area style*/
+.top-nav{
+    top: 0;
+    width: 100%;
+    /* height: 60px; */
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 1000;
+
+} 
+
+.top-nav div{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+}
+
+#btn-book{
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+    font-weight: 700
+}
+#btn-book:hover{
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+#btn-book a{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+#btn-book-div{
+    padding: 40px 0px 30px 0px;
+    margin-right: 40px;
+}
+#logo-div{
+    padding-top: 20px;
+    margin-left: 10px;
+}
+
+.scroll-btn{
+    width: 60px;
+    height: 100px;
+    position: absolute;
+    right: 4%;
+    top: 70%;
+    z-index: 10005;
+    background-color: transparent;
+    background-image: url('../assets/Icons/slide-btn.png');
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+    cursor: pointer;
+}
+.scroll-btn {
+    -webkit-animation: action 1s infinite  alternate;
+    animation: action 1s infinite  alternate;
+}
+@-webkit-keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+.scroll-btn:hover{
+    opacity: 0.5;
+}
+
+
+.nav-sidebar{
+    position: absolute;
+    right: 0;
+    width: 272px;
+    padding: 0 5px;
+    height: fit-content;
+    background-color: transparent;
+    z-index: 1000;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.nav-sidebar ul{
+   padding-top: 15px;
+   overflow: hidden;
+   color: #fff !important;
+
+}
+
+.nav-sidebar ul li{
+   line-height: 60px;
+   list-style: none;
+}
+.nav-sidebar ul li a:hover .fa-circle{
+    color: #fff;
+}
+ul li a.active .fa-circle{
+    color: #fff;
+}
+.nav-sidebar ul li a{
+   display: block;
+   height: 60px;
+   padding: 0 5px;
+   text-decoration: none;
+   text-transform: uppercase;
+   color: #fff;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   white-space: nowrap;
+   opacity: 1;
+   text-align: right;
+   margin-right: 60px;
+   transition: all 0.3s ease-in-out;
+}
+
+.side-icons{
+    margin-top: 10%;
+    z-index: 1000;
+    position: relative;
+    left: 2%;
+    width: fit-content;
+
+}
+
+ul.social-icons li{
+    color: #fff;
+    list-style: none;
+    white-space: nowrap;
+    margin-bottom: 10px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    padding: 7px;
+}
+
+ul.social-icons li a{
+    text-decoration: none;
+    text-align: left;
+
+}
+
+ul.social-icons .fa-facebook-f:hover{
+    color:#3b5998;
+  }
+  ul.social-icons .fa-instagram:hover{
+    color:#3f729b;
+  }
+.fa-circle{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    color: transparent;
+    font-size: 10px;
+}
+/*End header and menu area style*/
+
+/*Start footer style*/
 @media screen and (max-width:1440px){
     footer{
         background-color: #8f3e43;
@@ -62,14 +232,14 @@
       border-radius: 50%;
       width: 35px;
       height: 35px;
-      background-image: url(/assets/Icons/Icon\ awesome-facebook-f.svg);
+      background-image: url(../assets/Icons/awesome-facebook-f.svg);
       background-size: 30%;
       background-position: 50% 50%;
       background-repeat: no-repeat;
     }
     .IGcircle{
         background-size: 50%;
-        background-image: url(/assets/Icons/Icon\ ionic-logo-instagram.svg);
+        background-image: url(../assets/Icons/ionic-logo-instagram.svg);
     }
     .sec-content{
         padding-bottom: 10px;
@@ -169,3 +339,5 @@
     }
     
 }
+/*End footer style*/
+
