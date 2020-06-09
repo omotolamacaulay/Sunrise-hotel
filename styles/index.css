@@ -118,6 +118,9 @@
         grid-template-columns: auto;
         grid-auto-rows: auto;
     }
+    .footerlogosec{
+        grid-column: 1/2;
+    }
     .footerlogo,.footersocial{
         padding-bottom: 20px;
         grid-row: 1;
@@ -126,6 +129,7 @@
         padding-top: 0;
         align-items: center;
         justify-self: end;
+        grid-column: 2/3;
     }
     .base{
         justify-content: space-evenly;
@@ -141,6 +145,9 @@
     .sec1{
         display: flex;
         flex-direction: column;
+    }
+    .footerlogosec{
+        text-align: center;
     }
     .detail{
         flex-direction: column;
