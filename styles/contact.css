@@ -7,13 +7,13 @@
 }
 /* ===== HEADER & TOP =====*/
 .header-bg{
-    background-image: url(../assets/roberto-nickson-EeeKjwm2vDo-unsplash.jpg);
+    background-image: url(../assets/nick-karvounis-YH7KYtYMET0-unsplash.jpg);
     background-size: cover;
     background-position: center;
     padding: 0;
 }
 .second-bg{
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.7);
     margin: 0;
 }
 .logo{
@@ -25,11 +25,15 @@
 }
 
 /* ==== MAP ==== */
-#map {
-    width: 100%;
-    height: 400px;
-    background-color: grey;
+
+iframe{
+    filter: brightness(70%);
+    height: 59vh;
+    margin-bottom: 0;
+    padding: 0;
+    margin: 0;
 }
+
 .book-btn:hover, .book-btn:focus{
     color: white;
     background-color: rgb(93, 9, 15);
@@ -38,8 +42,8 @@
 }
 .intro-text{
     width: 100%;
-    padding-top: 1vh;
-    padding-bottom: 6vh;
+    padding-top: 9vh;
+    padding-bottom: 7vh;
 
 }
 .text-content{
@@ -49,12 +53,11 @@
     font-size: 6vw;
     color: white;
 }
-.frame{
-    width: 100%;
-}
-
 
 /*  === CONTENT SECTION ====*/
+.frame{
+    margin-top: -6px;
+}
 .content{
     padding-top: 10vh;
     padding-left: 30px;
@@ -120,10 +123,11 @@
     border: none;
     color: white;
     border-radius: 2px;
-    margin-left: 15px;
+    margin-right: 15px;
     margin-bottom: 2rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
+    margin-left: auto;
 }
 .submit-btn:hover, .submit-btn:focus{
     color: white;
@@ -200,11 +204,9 @@
     .icon{
         height: 3vw;
     }
-    #map{
-        height: 300px;
-    }
+    
     .intro-text{
-        padding-top: 2vh;
+        padding-top: 10vh;
         padding-bottom: 8vh;
         margin-left: 0px;
         margin-right: 0px;
@@ -214,4 +216,3 @@
     }
 }
     
-
