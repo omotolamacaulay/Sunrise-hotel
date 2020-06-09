@@ -13,7 +13,7 @@ footer{
 }
 .enquiry{
     display: flex;
-    padding: 40px;
+    padding: 50px 50px 60px;
 }
 .sec{
     flex-grow: 1;
@@ -37,6 +37,43 @@ footer{
 .address{
     padding-right: 20px;
 }
-.detailcontent{
-    font-weight: lighter;
+/* .detailcontent{
+    font-weight: 300;
+} */
+.footersocial{
+    display: flex;
+    padding-top: 25px;
+}
+.IG,.FB{
+    margin-right: 20px;
+}
+.IGcircle,.FBcircle{
+  border: solid 1.5px #FFFFFF;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  background-image: url(/assets/Icons/Icon\ awesome-facebook-f.svg);
+  background-size: 30%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.IGcircle{
+    background-size: 50%;
+    background-image: url(/assets/Icons/Icon\ ionic-logo-instagram.svg);
+}
+.sec-content{
+    padding-bottom: 10px;
+    font-size: 1rem;
+}
+.base{
+    display: flex;
+    font-size: 0.8rem;
+    padding-bottom: 8px;
+    justify-content: center;
+}
+.copyright{
+    margin-right:150px;
+}
+.basetext{
+    margin-right: 50px;
 }
