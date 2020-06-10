@@ -53,35 +53,47 @@
                     
                 </div>
                 <div class="col-sm-6 form-section">
-                    <form action="post">
-                        <div class="row">
-                            <div class="col-md-6 col-sm-12">
-                                <div class="form-group">
-                                    <input type="text" name="first-name" class="form-control form1" placeholder="First Name" aria-describedby="helpId">
+                  <form action="post">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <div class="form-group">
+                              <input type="text" name="first-name" class="form-control form1" id="first-name" placeholder="First Name" aria-describedby="helpId">
+                              <div class="invalid-feedback">
+                                First name must be between 2 and 15 characters
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="form-group">
+                                <input type="text" name="last-name" class="form-control form1" id="last-name" placeholder="Last Name" aria-describedby="helpId">
+                                <div class="invalid-feedback">
+                                  Last name must be between 2 and 15 characters
                                 </div>
                             </div>
-                            <div class="col-md-6 col-sm-12">
-                                <div class="form-group">
-                                    <input type="text" name="first-name" class="form-control form1" placeholder="Last Name" aria-describedby="helpId">
-                                </div>
-                            </div>
-                        
-                        <div class="col-sm-12">
-                            <div class="form-group">
-                                <input type="email" name="first-name" class="form-control form1" placeholder="Email Address" aria-describedby="helpId">
+                        </div>
+                    
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <input type="email" name="email" class="form-control form1" id="email" placeholder="Email Address" aria-describedby="helpId">
+                            <div class="invalid-feedback">
+                              Enter a valid email
                             </div>
                         </div>
-                        <div class="col-sm-12">
-                            <div class="form-group">
-                              
-                              <textarea class="form-control form1" name="message" rows="8" placeholder="Message"></textarea>
-                            </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                          
+                          <textarea class="form-control form1" name="message" id="message" rows="8" placeholder="Message"></textarea>
+                          <div class="invalid-feedback">
+                            Message must not exceed 200 characters
+                          </div>
                         </div>
-                        <button class="btn submit-btn">
-                            Submit
-                        </button>
-                        </div>
-                    </form>
+                    </div>
+                    <button class="btn submit-btn">
+                        Submit
+                    </button>
+                    </div>
+                </form>
                     
                 </div>
         </div>
@@ -201,9 +213,9 @@
           </div>
         </div>
       </footer>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="js/index.js"></script>
+    <script src="../js/bootstrap.min.js"></script>    
     <script src="fonts/js/all.min.js"></script>
     <script src="fonts/js/fontawesome.min.js"></script>
+    <script src="../js/index.js"></script>
 </body>
 </html>
