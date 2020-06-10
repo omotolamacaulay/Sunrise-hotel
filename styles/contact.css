@@ -1,0 +1,218 @@
+*{
+    font-family: 'Playfair Display', serif;
+}
+
+.main{
+    padding: 0;
+}
+/* ===== HEADER & TOP =====*/
+.header-bg{
+    background-image: url(../assets/nick-karvounis-YH7KYtYMET0-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+}
+.second-bg{
+    background-color: rgba(0,0,0,0.7);
+    margin: 0;
+}
+.logo{
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 5px;
+}
+
+/* ==== MAP ==== */
+
+iframe{
+    filter: brightness(70%);
+    height: 59vh;
+    margin-bottom: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.book-btn:hover, .book-btn:focus{
+    color: white;
+    background-color: rgb(93, 9, 15);
+    transition: all 0.8s;
+    box-shadow: 0 1 0 2 2px rgba(143, 62, 67, 0.322);
+}
+.intro-text{
+    width: 100%;
+    padding-top: 9vh;
+    padding-bottom: 7vh;
+
+}
+.text-content{
+    padding: 0px 5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 6vw;
+    color: white;
+}
+
+/*  === CONTENT SECTION ====*/
+.frame{
+    margin-top: -6px;
+}
+.content{
+    padding-top: 10vh;
+    padding-left: 30px;
+    background-color: #EDEDED;
+    padding-right: 30px;
+}
+.main-content{
+    padding: 5px 0px;
+    
+}
+.content-header{
+    font-size: 4.5vw;
+}
+.content-description{
+    margin-top: 5vh;
+    margin-bottom: 30px;
+}
+.paragraph{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+.contact-content{
+    margin-top: 17vh;
+    margin-bottom: 10px;
+}
+.location{
+    margin-bottom: 10px;
+}
+.icon{
+    height: 20px;
+    margin-right: 10px;
+}
+
+
+/* === FORM SECTION ===*/
+.form1{
+    border: 1px solid #111111;
+    margin-bottom: 5vh;
+    height: 50px;
+    
+}
+.form1:focus{
+    border: none;
+    border-bottom: 1px solid #8F3E43;
+    box-shadow: none;
+    transition: all 0.5s;
+    border-radius: 0px;
+    /* box-shadow: 0 0 0 0.2rem rgba(143, 62, 67, 0.322); */
+}
+.form-control{
+    font-family: 'Montserrat', sans-serif;
+}
+.form-section{
+    background-color: white;
+    padding-top: 12vh;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+.submit-btn{
+    background-color: #8F3E43;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    margin-right: 15px;
+    margin-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    margin-left: auto;
+}
+.submit-btn:hover, .submit-btn:focus{
+    color: white;
+    background-color: rgb(93, 9, 15);
+    transition: all 0.8s;
+    box-shadow: 0 1 0 2 2px rgba(143, 62, 67, 0.322);
+}
+
+/* === RESPONSIVE ===*/
+
+@media only screen and (max-width: 700px){
+    
+    .logo{
+    
+        height: 6.5vw;
+    }
+    .form-section{
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+    .book-btn{
+        font-size: 2vw;
+    }
+    .form1{
+        height: 5.5vh;
+        margin-bottom: 2.5vh;
+    }
+    .form-section{
+        padding-left: 4.5vw;
+        padding-right: 4.5vw;
+        
+    }
+    .form-control{
+        font-size: 2.5vw;
+    }
+    .submit-btn{
+        font-size: 3vw;
+    }
+    .paragraph{
+        font-size: small;
+    }
+    .icon{
+        height: 2vw;
+    }
+    .text{
+        font-size: small;
+    }
+    .contact-content{
+        margin-top: 13vh;
+    }
+    
+}
+@media only screen and (max-width : 450px){
+    .text-content{
+        font-size: 8vw;
+    }
+    .content-header{
+        text-align: center;
+        font-size: 20px;
+    }
+    .paragraph{
+        text-align: justify;
+    }
+    .form-section{
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+    .form-control{
+        font-size: 3vw;
+    }
+    .submit-btn{
+        font-size: 3.7vw;
+    }
+    .icon{
+        height: 3vw;
+    }
+    
+    .intro-text{
+        padding-top: 10vh;
+        padding-bottom: 8vh;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .contact-content{
+        margin-top: 30px;
+    }
+}
+    
